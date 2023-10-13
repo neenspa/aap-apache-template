@@ -1,0 +1,13 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aap-apache-template
+  description: This template creates and configures am Apache VM on VSphere 
+  annotations:
+    backstage.io/kubernetes-id: aap-apache-template
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: api
+  lifecycle: production
+  owner: daniele
